@@ -91,6 +91,16 @@ WeaponLoot["dayz_ghosttown"] = {
 Vector(3951,11461,1346),
 Vector(6365,14016,1474), -- [ВЫШКИ НА БОЛОТЕ]
 
+Vector(13795,8743,512),
+Vector(13634,8734,512),
+Vector(13483,8727,512),
+Vector(13353,8726,512),
+Vector(13223,8731,512),
+Vector(13493,8925,512),
+Vector(13756,8917,512),
+Vector(13263,8901,512), -- ["ПОДВАЛ"]
+  
+
 }
 
 MedicLoot["dayz_ghosttown"] = {
