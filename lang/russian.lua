@@ -22,9 +22,7 @@ LANGUAGE.stopthat = "Показать анимацию:Нет"
 LANGUAGE.sit = "Показать анимацию:Сесть"
 
 --Message
-LANGUAGE.killmessagenone = " был убит."
-LANGUAGE.killmessage1 = " убил игрока "
-LANGUAGE.killmessage2 = " с помощью "
+LANGUAGE.killmessage = "Ты убил "
 
 LANGUAGE.hungermessage = "Мне нужно найти что-нибудь поесть, иначе я умру."
 LANGUAGE.thirstmessage = "Мне нужно найти что-нибудь попить, иначе я умру."
@@ -114,6 +112,7 @@ LANGUAGE.PlaceItem = "Поставить предмет"
 LANGUAGE.DropItem = "Выбросить предмет"
 LANGUAGE.UseItem = "Использовать предмет"
 LANGUAGE.CookItem = "Готовить предмет"
+LANGUAGE.CraftCampfire = "Сделать костёр"
 LANGUAGE.DestroyItem = "Уничтожить предмет"
 LANGUAGE.DepositItem = "Положить предмет"
 LANGUAGE.WithdrawItem = "Взять предмет"

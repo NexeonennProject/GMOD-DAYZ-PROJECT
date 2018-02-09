@@ -22,9 +22,7 @@ LANGUAGE.stopthat = "Show animation:No"
 LANGUAGE.sit = "Show animation:Sit"
 
 --Message
-LANGUAGE.killmessagenone = " was killed."
-LANGUAGE.killmessage1 = " killed a player "
-LANGUAGE.killmessage2 = " using "
+LANGUAGE.killmessage = "You killed "
 
 LANGUAGE.hungermessage = "I need to find something to eat, otherwise I will die."
 LANGUAGE.thirstmessage = "I need to find something to drink, otherwise I will die."
@@ -114,6 +112,7 @@ LANGUAGE.PlaceItem = "Place item"
 LANGUAGE.DropItem = "Drop item"
 LANGUAGE.UseItem = "Use item"
 LANGUAGE.CookItem = "Cooking item"
+LANGUAGE.CraftCampfire = "Make a campfire"
 LANGUAGE.DestroyItem = "Destroy item"
 LANGUAGE.DepositItem = "Deposit item"
 LANGUAGE.WithdrawItem = "Withdraw item"
