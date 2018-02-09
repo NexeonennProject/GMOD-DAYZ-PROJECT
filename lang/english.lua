@@ -139,8 +139,8 @@ LANGUAGE.PerkTableDesc = "All about the perks."
 --Settings
 LANGUAGE.EnableContentText = "Enable message about missing content:"
 LANGUAGE.EnableHudText = "Enable Hud:"
-LANGUAGE.EnableDebugMonitorText = "Enable Debug Monitor:"
-LANGUAGE.InvButtonText = "Button Inventory:"
+LANGUAGE.NVButtonText = "NightVision button:"
+LANGUAGE.InvButtonText = "Inventory button:"
 
 --Crafting
 LANGUAGE.CraftTextUnnamed = ""

@@ -139,7 +139,7 @@ LANGUAGE.PerkTableDesc = "Все о перках."
 --Settings
 LANGUAGE.EnableContentText = "Включить сообщение о недостающем контенте:"
 LANGUAGE.EnableHudText = "Включить худ:"
-LANGUAGE.EnableDebugMonitorText = "Включить Debug Monitor:"
+LANGUAGE.NVButtonText = "Кнопка ПНВ:"
 LANGUAGE.InvButtonText = "Кнопка Инвентаря:"
 
 --Crafting
