@@ -141,6 +141,14 @@ LANGUAGE.EnableContentText = "Enable message about missing content:"
 LANGUAGE.EnableHudText = "Enable Hud:"
 LANGUAGE.NVButtonText = "NightVision button:"
 LANGUAGE.InvButtonText = "Inventory button:"
+LANGUAGE.LangButtonText = "Set Language"
+LANGUAGE.LangRu = "Russian"
+LANGUAGE.LangEn = "English"
+
+--Group
+LANGUAGE.GroupChangeButton = "Change group name"
+LANGUAGE.GroupChangeText1 = "Set the name for the group\n(Write in quotes)"
+LANGUAGE.GroupChangeText2 = '"NAME"'
 
 --Crafting
 LANGUAGE.CraftTextUnnamed = ""
@@ -187,51 +195,112 @@ LANGUAGE.PriceCreditsButton = "Purchase for credits"
 LANGUAGE.SellMoney = "Sell: $"
 LANGUAGE.SellMoneyButton = "Sell for $"
 
+--Perk
+LANGUAGE.Perk1_name = ""
+LANGUAGE.Perk1_desc = ""
+
+LANGUAGE.Perk2_name = ""
+LANGUAGE.Perk2_desc = ""
+
+LANGUAGE.Perk3_name = ""
+LANGUAGE.Perk3_desc = ""
+
+LANGUAGE.Perk4_name = ""
+LANGUAGE.Perk4_desc = ""
+
+LANGUAGE.Perk5_name = ""
+LANGUAGE.Perk5_desc = ""
+
+LANGUAGE.Perk6_name = ""
+LANGUAGE.Perk6_desc = ""
+
+LANGUAGE.Perk7_name = ""
+LANGUAGE.Perk7_desc = ""
+
+LANGUAGE.Perk8_name = ""
+LANGUAGE.Perk8_desc = ""
+
+LANGUAGE.Perk9_name = ""
+LANGUAGE.Perk9_desc = ""
+
+LANGUAGE.Perk10_name = ""
+LANGUAGE.Perk10_desc = ""
+
+LANGUAGE.Perk11_name = ""
+LANGUAGE.Perk11_desc = ""
+
+LANGUAGE.Perk12_name = ""
+LANGUAGE.Perk12_desc = ""
+
+LANGUAGE.Perk13_name = ""
+LANGUAGE.Perk13_desc = ""
+
+LANGUAGE.Perk14_name = ""
+LANGUAGE.Perk14_desc = ""
+
+LANGUAGE.Perk15_name = ""
+LANGUAGE.Perk15_desc = ""
+
+LANGUAGE.Perk16_name = ""
+LANGUAGE.Perk16_desc = ""
+
+LANGUAGE.Perk17_name = ""
+LANGUAGE.Perk17_desc = ""
+
+LANGUAGE.Perk18_name = ""
+LANGUAGE.Perk18_desc = ""
+
+LANGUAGE.Perk19_name = ""
+LANGUAGE.Perk19_desc = ""
+
+LANGUAGE.Perk20_name = ""
+LANGUAGE.Perk20_desc = ""
+
 --ItemList
-LANGUAGE.ID01_item = ""
-LANGUAGE.ID01_desc = ""
-LANGUAGE.ID01_usetip = ""
-LANGUAGE.ID01_blocktip = ""
+LANGUAGE.ID1_item = "Credits"
+LANGUAGE.ID1_desc = "Premium money."
+--LANGUAGE.ID01_usetip = ""
+--LANGUAGE.ID01_blocktip = ""
 
-LANGUAGE.ID02_item = ""
-LANGUAGE.ID02_desc = ""
-LANGUAGE.ID02_usetip = ""
-LANGUAGE.ID02_blocktip = ""
+LANGUAGE.ID2_item = "Money"
+LANGUAGE.ID2_desc = ""
+LANGUAGE.ID2_usetip = ""
+--LANGUAGE.ID2_blocktip = ""
 
-LANGUAGE.ID03_item = ""
-LANGUAGE.ID03_desc = ""
-LANGUAGE.ID03_usetip = ""
-LANGUAGE.ID03_blocktip = ""
+LANGUAGE.ID3_item = "A bundle of money"
+LANGUAGE.ID3_desc = ""
+--LANGUAGE.ID3_usetip = ""
+--LANGUAGE.ID3_blocktip = ""
 
-LANGUAGE.ID04_item = ""
-LANGUAGE.ID04_desc = ""
-LANGUAGE.ID04_usetip = ""
-LANGUAGE.ID04_blocktip = ""
+LANGUAGE.ID4_item = "Some kind of a sniper rifle"
+--LANGUAGE.ID4_desc = ""
+--LANGUAGE.ID4_usetip = ""
+--LANGUAGE.ID4_blocktip = ""
 
-LANGUAGE.ID05_item = ""
-LANGUAGE.ID05_desc = ""
-LANGUAGE.ID05_usetip = ""
-LANGUAGE.ID05_blocktip = ""
+LANGUAGE.ID5_item = "Some kind of rifle"
+--LANGUAGE.ID5_desc = ""
+--LANGUAGE.ID5_usetip = ""
+--LANGUAGE.ID5_blocktip = ""
 
-LANGUAGE.ID06_item = ""
-LANGUAGE.ID06_desc = ""
-LANGUAGE.ID06_usetip = ""
-LANGUAGE.ID06_blocktip = ""
+LANGUAGE.ID6_item = "Some kind of rifle"
+--LANGUAGE.ID6_desc = ""
+--LANGUAGE.ID6_usetip = ""
+--LANGUAGE.ID6_blocktip = ""
 
-LANGUAGE.ID07_item = ""
-LANGUAGE.ID07_desc = ""
-LANGUAGE.ID07_usetip = ""
-LANGUAGE.ID07_blocktip = ""
+LANGUAGE.ID7_item = "Some kind of submachine gun"
+--LANGUAGE.ID7_desc = ""
+--LANGUAGE.ID7_usetip = ""
+--LANGUAGE.ID7_blocktip = ""
 
-LANGUAGE.ID08_item = ""
-LANGUAGE.ID08_desc = ""
-LANGUAGE.ID08_usetip = ""
-LANGUAGE.ID08_blocktip = ""
+LANGUAGE.ID8_item = "M21"
+LANGUAGE.ID8_desc = ""
+--LANGUAGE.ID8_usetip = ""
+--LANGUAGE.ID8_blocktip = ""
 
-LANGUAGE.ID09_item = ""
-LANGUAGE.ID09_desc = ""
-LANGUAGE.ID09_usetip = ""
-LANGUAGE.ID09_blocktip = ""
+LANGUAGE.ID9_item = "M24"
+LANGUAGE.ID9_desc = ""
+--LANGUAGE.ID9_usetip = ""
+--LANGUAGE.ID9_blocktip = ""
 
 LANGUAGE.ID10_item = ""
 LANGUAGE.ID10_desc = ""
