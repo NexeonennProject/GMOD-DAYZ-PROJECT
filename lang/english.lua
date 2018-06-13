@@ -11,6 +11,28 @@ LANGUAGE.neutral = "NEUTRAL"
 LANGUAGE.bandit = "BANDIT"
 LANGUAGE.hero = "HERO"
 
+--Scoreboard
+LANGUAGE.scoreboard_ping = "Ping"
+LANGUAGE.scoreboard_kills = "Frags"
+LANGUAGE.scoreboard_status = "Rank/Prefix"
+LANGUAGE.scoreboard_stats = "        Status"
+LANGUAGE.scoreboard_group = "Group"
+
+LANGUAGE.scoreboard_ButtonSteamID = "Copy SteamID"
+LANGUAGE.scoreboard_ButtonCopyName = "Copy the nickname"
+LANGUAGE.scoreboard_ButtonShow = "View profile"
+
+LANGUAGE.scoreboard_ButtonGroupKick = "Kick out of the group"
+LANGUAGE.scoreboard_ButtonGroupInvite = "Invite to group"
+LANGUAGE.scoreboard_ButtonGroupAcceptInvite = "Accept invitation"
+LANGUAGE.scoreboard_ButtonGroupLeave = "Leave group"
+
+LANGUAGE.scoreboard_alive = "Alive"
+LANGUAGE.scoreboard_notalive = "Dead"
+
+LANGUAGE.scoreboard_muteplayer = "Mute/Unmute player"
+
+LANGUAGE.scoreboard_handsup = ""
 --Animation
 LANGUAGE.handsup = "Show animation:Put the hands up"
 LANGUAGE.halt = "Show animation:Halt"
@@ -60,8 +82,7 @@ LANGUAGE.deathLMBMsgCountDown = " seconds to respawn!"
 
 LANGUAGE.GroupDistance = "Distance:"
 
-LANGUAGE.Tag = "You are attacking/have been attacked!!! You can leave the server/go to safe area via "
-LANGUAGE.Tag2 = " seconds"
+LANGUAGE.Tag = "You are attacking/have been attacked!!! You can leave the server/go to safe area via %s seconds"
 
 LANGUAGE.SafeZoneLabel = "SAFE ZONE"
 LANGUAGE.SafeZoneText1 = "Here you will not be able to use weapons!"
@@ -70,10 +91,10 @@ LANGUAGE.SafeZoneText3 = "Here you will not receive damage from other players."
 LANGUAGE.SafeZoneText4 = ""
 
 LANGUAGE.VipZoneLabel = "VIP ZONE"
-LANGUAGE.VipZoneText1 = ""
-LANGUAGE.VipZoneText2 = ""
-LANGUAGE.VipZoneText3 = ""
-LANGUAGE.VipZoneText4 = ""
+LANGUAGE.VipZoneText1 = "Mere mortals don't coming here"
+LANGUAGE.VipZoneText2 = "Here you can Buy and Sale items"
+LANGUAGE.VipZoneText3 = "Here you don't using weapon"
+LANGUAGE.VipZoneText4 = "Here you are in complete safety, no one can kill you\n(Only hunger and thirst)"
 
 LANGUAGE.VehicleHP = "Life: "
 LANGUAGE.VehicleFuel = "Fuel: "
@@ -110,7 +131,11 @@ LANGUAGE.ItemDesc = "Description: "
 LANGUAGE.ItemWeight = "Weight in slots: "
 LANGUAGE.PlaceItem = "Place item"
 LANGUAGE.DropItem = "Drop item"
+LANGUAGE.CooldownDropItem = "You can not throw out the item because you are already using an item."
+LANGUAGE.GuitarBlockDropItem = "You can not throw out an item while you're holding a guitar in hands."
 LANGUAGE.UseItem = "Use item"
+LANGUAGE.CooldownUseItem = "You can not use the item because you are already using an item."
+LANGUAGE.GuitarBlockUseItem = "You can not use an item while you're holding a guitar in hands."
 LANGUAGE.CookItem = "Cooking item"
 LANGUAGE.CraftCampfire = "Make a campfire"
 LANGUAGE.DestroyItem = "Destroy item"
@@ -119,6 +144,10 @@ LANGUAGE.WithdrawItem = "Withdraw item"
 LANGUAGE.AmountPopupItem = "Number of items"
 
 LANGUAGE.Weight = "Slot(s): "
+
+LANGUAGE.BankFullText1 = "The Bank is full, buy VIP/GOLD so you can have more space!!!"
+LANGUAGE.BankFullText2 = "The Bank is full, buy GOLD so you can have more space!!!"
+LANGUAGE.BankFullText3 = "The Bank is full, it can no longer be increased!!!"
 
 --TableSheet
 LANGUAGE.InventaryTable = "Inventory"
@@ -195,66 +224,96 @@ LANGUAGE.PriceCreditsButton = "Purchase for credits"
 LANGUAGE.SellMoney = "Sell: $"
 LANGUAGE.SellMoneyButton = "Sell for $"
 
+LANGUAGE.NotEnoughMoney = "You can't afford that."
+LANGUAGE.NotWeight = "Not enough space."
+LANGUAGE.NotNPC = "Nice try. Go to the NPC to buy/sell stuff."
+LANGUAGE.BuyItem = "You bought a "
+LANGUAGE.SellItem = "You sold a "
+LANGUAGE.NotHaveItem = "You do not have this item."
+LANGUAGE.NotHaveItemBackPack = "This item is not in the backpack."
+
+--Party
+LANGUAGE.KickPlayerGroup = "You kicked %s out of the group."
+LANGUAGE.NotLeaderGroup = "You not a leader."
+LANGUAGE.AlreadyInviteGroup = "This player has already received an invitation."
+LANGUAGE.AlreadyTargetGroup1 = "This player is already in the group."
+LANGUAGE.InviteYou1 = "%s requested you to join his group."
+LANGUAGE.AlreadyTargetGroup2 = "%s has sent you a group invite."
+LANGUAGE.InviteYou2 = "You have sent %s a group invite."
+LANGUAGE.JoinGroupYou = "You have joined the player group %s."
+LANGUAGE.JoinGroupTarget = "%s joined the group."
+LANGUAGE.GroupNoPlayer = "Your group was disbanded because there were no people in it."
+LANGUAGE.LeaderRemoveGroup = "The leader disbanded the group."
+LANGUAGE.TargetLeaveGroup = "%s left the group."
+LANGUAGE.LeaveGroup = "You left the group."
+
 --Perk
-LANGUAGE.Perk1_name = ""
+LANGUAGE.Perk_buy = "You unlocked the perk: "
+LANGUAGE.Skill_buy = "You learned "
+LANGUAGE.Perk_notbuy = "You already have this perk."
+LANGUAGE.Skill_notbuy1 = "You already have this skill."
+LANGUAGE.Skill_notbuy2 = "You do not have the prerequisite for this skill."
+LANGUAGE.Skill_notbuy3 = "You are not experienced enough."
+
+LANGUAGE.Perk1_name = "Skill 1"
 LANGUAGE.Perk1_desc = ""
 
-LANGUAGE.Perk2_name = ""
+LANGUAGE.Perk2_name = "Skill 2"
 LANGUAGE.Perk2_desc = ""
 
-LANGUAGE.Perk3_name = ""
+LANGUAGE.Perk3_name = "Improved skill 1"
 LANGUAGE.Perk3_desc = ""
 
-LANGUAGE.Perk4_name = ""
+LANGUAGE.Perk4_name = "Improved skill 2"
 LANGUAGE.Perk4_desc = ""
 
-LANGUAGE.Perk5_name = ""
+LANGUAGE.Perk5_name = "Professional craftsman"
 LANGUAGE.Perk5_desc = ""
 
-LANGUAGE.Perk6_name = ""
+LANGUAGE.Perk6_name = "EMPTY SKILL (NOT USED)"
 LANGUAGE.Perk6_desc = ""
 
-LANGUAGE.Perk7_name = ""
-LANGUAGE.Perk7_desc = ""
+LANGUAGE.Perk7_name = "Battle with hunger[1]"
+LANGUAGE.Perk7_desc = "You are less willing to eat"
 
-LANGUAGE.Perk8_name = ""
-LANGUAGE.Perk8_desc = ""
+LANGUAGE.Perk8_name = "First aid"
+LANGUAGE.Perk8_desc = "All healing items are more effective"
 
-LANGUAGE.Perk9_name = ""
-LANGUAGE.Perk9_desc = ""
+LANGUAGE.Perk9_name = "Survivor"
+LANGUAGE.Perk9_desc = "From thirst and hunger your health is declining more slowly"
 
-LANGUAGE.Perk10_name = ""
-LANGUAGE.Perk10_desc = ""
+LANGUAGE.Perk10_name = "Battle with hunger[2]"
+LANGUAGE.Perk10_desc = "You do you want to drink less."
 
-LANGUAGE.Perk11_name = ""
-LANGUAGE.Perk11_desc = ""
+LANGUAGE.Perk11_name = "Battle-hardened"
+LANGUAGE.Perk11_desc = "You get less damage.\n(reduces player and zombie damage by 15%)"
 
-LANGUAGE.Perk12_name = ""
-LANGUAGE.Perk12_desc = ""
+LANGUAGE.Perk12_name = "License for driving"
+LANGUAGE.Perk12_desc = "Allows You to drive a car"
 
-LANGUAGE.Perk13_name = ""
-LANGUAGE.Perk13_desc = ""
+LANGUAGE.Perk13_name = "Mechanic[1]"
+LANGUAGE.Perk13_desc = "Allows you to repair equipment"
 
-LANGUAGE.Perk14_name = ""
-LANGUAGE.Perk14_desc = ""
+LANGUAGE.Perk14_name = "Mechanic[2]"
+LANGUAGE.Perk14_desc = "You fix technique twice as effective"
 
-LANGUAGE.Perk15_name = ""
-LANGUAGE.Perk15_desc = ""
+LANGUAGE.Perk15_name = "Melee 1"
+LANGUAGE.Perk15_desc = "Increases melee damage against players"
 
-LANGUAGE.Perk16_name = ""
-LANGUAGE.Perk16_desc = ""
+LANGUAGE.Perk16_name = "Melee 2"
+LANGUAGE.Perk16_desc = "Increases melee damage against players"
 
-LANGUAGE.Perk17_name = ""
-LANGUAGE.Perk17_desc = ""
+LANGUAGE.Perk17_name = "Melee 3"
+LANGUAGE.Perk17_desc = "Increases melee damage against players"
 
-LANGUAGE.Perk18_name = ""
-LANGUAGE.Perk18_desc = ""
+LANGUAGE.Perk18_name = "Stability"
+LANGUAGE.Perk18_desc = "Reduces weapon recoil"
 
-LANGUAGE.Perk19_name = ""
-LANGUAGE.Perk19_desc = ""
+LANGUAGE.Perk19_name = "At gunpoint"
+LANGUAGE.Perk19_desc = "Reduces weapon spread"
 
-LANGUAGE.Perk20_name = ""
-LANGUAGE.Perk20_desc = ""
+LANGUAGE.Perk20_name = "Professional shooter"
+LANGUAGE.Perk20_desc = "Bullet damage increases by 15%"
 
 --ItemList
 LANGUAGE.ID1_item = "Credits"

@@ -11,6 +11,28 @@ LANGUAGE.neutral = "НЕЙТРАЛ"
 LANGUAGE.bandit = "БАНДИТ"
 LANGUAGE.hero = "ГЕРОЙ"
 
+--Scoreboard
+LANGUAGE.scoreboard_ping = "Пинг"
+LANGUAGE.scoreboard_kills = "Убийства"
+LANGUAGE.scoreboard_status = "Ранг/Префикс"
+LANGUAGE.scoreboard_stats = "        Статус"
+LANGUAGE.scoreboard_group = "Группа"
+
+LANGUAGE.scoreboard_ButtonSteamID = "Скопировать SteamID"
+LANGUAGE.scoreboard_ButtonCopyName = "Скопировать никнейм"
+LANGUAGE.scoreboard_ButtonShow = "Посмотреть профиль"
+
+LANGUAGE.scoreboard_ButtonGroupKick = "Выгнать из группы"
+LANGUAGE.scoreboard_ButtonGroupInvite = "Пригласить в группу"
+LANGUAGE.scoreboard_ButtonGroupAcceptInvite = "Принять приглашение"
+LANGUAGE.scoreboard_ButtonGroupLeave = "Выйти из группы"
+
+LANGUAGE.scoreboard_alive = "Жив"
+LANGUAGE.scoreboard_notalive = "Мертв"
+
+LANGUAGE.scoreboard_muteplayer = "Заглушить/Разглушить игрока"
+
+LANGUAGE.scoreboard_handsup = ""
 --Animation
 LANGUAGE.handsup = "Показать анимацию:Поднять Руки"
 LANGUAGE.halt = "Показать анимацию:Остановись"
@@ -60,8 +82,7 @@ LANGUAGE.deathLMBMsgCountDown = " секунд до респавна!"
 
 LANGUAGE.GroupDistance = "Растояние:"
 
-LANGUAGE.Tag = "Вы атаковали/атакованы!!! Вы сможете покинуть сервер/зайти на безопасную зону через "
-LANGUAGE.Tag2 = " секунд"
+LANGUAGE.Tag = "Вы атаковали/атакованы!!! Вы сможете покинуть сервер/зайти на безопасную зону через %s секунд"
 
 LANGUAGE.SafeZoneLabel = "БЕЗОПАСНАЯ ЗОНА"
 LANGUAGE.SafeZoneText1 = "Здесь вы не сможете использовать оружие!"
@@ -110,7 +131,11 @@ LANGUAGE.ItemDesc = "Описание: "
 LANGUAGE.ItemWeight = "Вес в слотах: "
 LANGUAGE.PlaceItem = "Поставить предмет"
 LANGUAGE.DropItem = "Выбросить предмет"
+LANGUAGE.CooldownDropItem = "Вы не сможете выбросить предмет т.к вы уже используете какой-то предмет."
+LANGUAGE.GuitarBlockDropItem = "Нельзя выбросить предмет,пока в руках гитара."
 LANGUAGE.UseItem = "Использовать предмет"
+LANGUAGE.CooldownUseItem = "Вы не сможете использовать предмет т.к вы уже используете какой-то предмет."
+LANGUAGE.GuitarBlockUseItem = "Нельзя использовать предмет,пока в руках гитара."
 LANGUAGE.CookItem = "Готовить предмет"
 LANGUAGE.CraftCampfire = "Сделать костёр"
 LANGUAGE.DestroyItem = "Уничтожить предмет"
@@ -119,6 +144,10 @@ LANGUAGE.WithdrawItem = "Взять предмет"
 LANGUAGE.AmountPopupItem = "Количество предметов"
 
 LANGUAGE.Weight = "Слот(ов): "
+
+LANGUAGE.BankFullText1 = "Банк полон, купи ВИП/GOLD чтобы у тебя было больше места!!!"
+LANGUAGE.BankFullText2 = "Банк полон, купи GOLD чтобы у тебя было больше места!!!"
+LANGUAGE.BankFullText3 = "Банк полон,больше его никак не увеличить!!!"
 
 --TableSheet
 LANGUAGE.InventaryTable = "Инвентарь"
@@ -195,65 +224,96 @@ LANGUAGE.PriceCreditsButton = "Купить за Кредиты"
 LANGUAGE.SellMoney = "Продажа: $"
 LANGUAGE.SellMoneyButton = "Продать за $"
 
+LANGUAGE.NotEnoughMoney = "Вы не можете себе это позволить."
+LANGUAGE.NotWeight = "Не хватает места."
+LANGUAGE.NotNPC = "Не получится. Подойди к продавцу и купи/продай."
+LANGUAGE.BuyItem = "Ты купил "
+LANGUAGE.SellItem = "Ты продал "
+LANGUAGE.NotHaveItem = "У тебя нет этого предмета."
+LANGUAGE.NotHaveItemBackPack = "Этого предмета нет в рюкзаке."
+
+--Party
+LANGUAGE.KickPlayerGroup = "Вы выгнали %s из группы."
+LANGUAGE.NotLeaderGroup = "Ты не лидер группы."
+LANGUAGE.AlreadyInviteGroup = "Этот игрок уже получал приглашение."
+LANGUAGE.AlreadyTargetGroup1 = "Этот игрок уже в группе."
+LANGUAGE.InviteYou1 = "%s предложил вам вступить в его группу."
+LANGUAGE.AlreadyTargetGroup2 = "%s отправил вам приглашение в группу."
+LANGUAGE.InviteYou2 = "Ты отправил игроку %s приглашение в группу."
+LANGUAGE.JoinGroupYou = "Вы присоединились к группе игрока %s."
+LANGUAGE.JoinGroupTarget = "%s присоединился к группе."
+LANGUAGE.GroupNoPlayer = "Ваша группа была расформирована т.к в ней не было людей."
+LANGUAGE.LeaderRemoveGroup = "Лидер распустил группу."
+LANGUAGE.TargetLeaveGroup = "%s вышел из группы."
+LANGUAGE.LeaveGroup = "Ты покинул группу."
+
 --Perk
-LANGUAGE.Perk1_name = ""
+LANGUAGE.Perk_buy = "Ты разблокировал перк: "
+LANGUAGE.Skill_buy = "Ты изучил "
+LANGUAGE.Perk_notbuy = "У вас уже есть этот перк."
+LANGUAGE.Skill_notbuy1 = "У вас уже есть этот талант."
+LANGUAGE.Skill_notbuy2 = "Ты не можешь прокачать этот талант т.к ты не прокачал талант до него."
+LANGUAGE.Skill_notbuy3 = "У вас недостаточно опыта чтобы изучить этот талант."
+
+LANGUAGE.Perk1_name = "Умение 1"
 LANGUAGE.Perk1_desc = ""
 
-LANGUAGE.Perk2_name = ""
+LANGUAGE.Perk2_name = "Умение 2"
 LANGUAGE.Perk2_desc = ""
 
+LANGUAGE.Perk3_name = "Улучшенное умение 1"
 LANGUAGE.Perk3_desc = ""
 
-LANGUAGE.Perk4_name = ""
+LANGUAGE.Perk4_name = "Улучшенное умение 2"
 LANGUAGE.Perk4_desc = ""
 
-LANGUAGE.Perk5_name = ""
+LANGUAGE.Perk5_name = "Профессиональный умелец"
 LANGUAGE.Perk5_desc = ""
 
-LANGUAGE.Perk6_name = ""
+LANGUAGE.Perk6_name = "EMPTY SKILL (NOT USED)"
 LANGUAGE.Perk6_desc = ""
 
-LANGUAGE.Perk7_name = ""
-LANGUAGE.Perk7_desc = ""
+LANGUAGE.Perk7_name = "Битва с голодом[1]"
+LANGUAGE.Perk7_desc = "Вы все меньше хотите кушать"
 
-LANGUAGE.Perk8_name = ""
-LANGUAGE.Perk8_desc = ""
+LANGUAGE.Perk8_name = "Первая помощь"
+LANGUAGE.Perk8_desc = "Все лечащие предметы становятся более эффективными"
 
-LANGUAGE.Perk9_name = ""
-LANGUAGE.Perk9_desc = ""
+LANGUAGE.Perk9_name = "Выживший"
+LANGUAGE.Perk9_desc = "От жажды и голода ваше здоровье уменьшается медленнее "
 
-LANGUAGE.Perk10_name = ""
-LANGUAGE.Perk10_desc = ""
+LANGUAGE.Perk10_name = "Битва с голодом[2]"
+LANGUAGE.Perk10_desc = "Вы все меньше хотите пить"
 
-LANGUAGE.Perk11_name = ""
-LANGUAGE.Perk11_desc = ""
+LANGUAGE.Perk11_name = "Закалённый в боях"
+LANGUAGE.Perk11_desc = "Вы получаете меньше урона.\n(понижает урон от игроков и зомби на 15%)"
 
-LANGUAGE.Perk12_name = ""
-LANGUAGE.Perk12_desc = ""
+LANGUAGE.Perk12_name = "Лицензия на вождение"
+LANGUAGE.Perk12_desc = "Позволяет Вам ездить на машине"
 
-LANGUAGE.Perk13_name = ""
-LANGUAGE.Perk13_desc = ""
+LANGUAGE.Perk13_name = "Механик[1]"
+LANGUAGE.Perk13_desc = "Позволяет Вам ремонтировать технику"
 
-LANGUAGE.Perk14_name = ""
-LANGUAGE.Perk14_desc = ""
+LANGUAGE.Perk14_name = "Механик[2]"
+LANGUAGE.Perk14_desc = "Вы чините технику в два раза эффективнее"
 
-LANGUAGE.Perk15_name = ""
-LANGUAGE.Perk15_desc = ""
+LANGUAGE.Perk15_name = "Ближний бой 1"
+LANGUAGE.Perk15_desc = "Увеличивает урон в ближнем бою против игроков"
 
-LANGUAGE.Perk16_name = ""
-LANGUAGE.Perk16_desc = ""
+LANGUAGE.Perk16_name = "Ближний бой 2"
+LANGUAGE.Perk16_desc = "Увеличивает урон в ближнем бою против игроков"
 
-LANGUAGE.Perk17_name = ""
-LANGUAGE.Perk17_desc = ""
+LANGUAGE.Perk17_name = "Ближний бой 3"
+LANGUAGE.Perk17_desc = "Увеличивает урон в ближнем бою против игроков"
 
-LANGUAGE.Perk18_name = ""
-LANGUAGE.Perk18_desc = ""
+LANGUAGE.Perk18_name = "Устойчивость"
+LANGUAGE.Perk18_desc = "Снижает отдачу оружия"
 
-LANGUAGE.Perk19_name = ""
-LANGUAGE.Perk19_desc = ""
+LANGUAGE.Perk19_name = "На мушке"
+LANGUAGE.Perk19_desc = "Уменьшает разброс у оружия"
 
-LANGUAGE.Perk20_name = ""
-LANGUAGE.Perk20_desc = ""
+LANGUAGE.Perk20_name = "Профессиональный стрелок"
+LANGUAGE.Perk20_desc = "Урон от пуль повышается на 15%"
 
 --ItemList
 LANGUAGE.ID1_item = "Кредит"
