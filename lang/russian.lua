@@ -3,6 +3,20 @@ translate.AddLanguage("ru", "Russian")
 --Language label
 LANGUAGE.language_name = "Русский"
 
+--AFK
+LANGUAGE.AFKText1 = "Вас не было около "
+LANGUAGE.AFKText2 = "ОТОШЁЛ"
+
+--GRAVE
+LANGUAGE.Grave = "Могила"
+LANGUAGE.GraveText1 = "Умер по неизвестной причине"
+LANGUAGE.GraveText2 = "Нажмите 'E' чтобы отдать честь"
+
+--AUTORESTART
+LANGUAGE.AutoRestart1 = "ВНИМАНИЕ"
+LANGUAGE.AutoRestart2 = "Через %s секунд будет произведён рестарт сервера!"
+LANGUAGE.AutoRestart3 = "Во избежание потери лута, встаньте где-нибудь в безопасном месте"
+
 --Other
 LANGUAGE.money = "ДЕНЬГИ"
 LANGUAGE.backpack = "РЮКЗАК"
@@ -11,9 +25,18 @@ LANGUAGE.neutral = "НЕЙТРАЛ"
 LANGUAGE.bandit = "БАНДИТ"
 LANGUAGE.hero = "ГЕРОЙ"
 
+LANGUAGE.StringGoodTime1 = "несколько секунд"
+LANGUAGE.StringGoodTime2 = " секунд(ы)"
+LANGUAGE.StringGoodTime3 = " минут(а,ы)"
+LANGUAGE.StringGoodTime4 =  " час(ов)"
+LANGUAGE.StringGoodTime5 = " день"
+LANGUAGE.StringGoodTime6 = " неделя"
+LANGUAGE.StringGoodTime7 = " год"
+
 --Scoreboard
 LANGUAGE.scoreboard_ping = "Пинг"
 LANGUAGE.scoreboard_kills = "Убийства"
+LANGUAGE.scoreboard_lvl = "Уровень"
 LANGUAGE.scoreboard_status = "Ранг/Префикс"
 LANGUAGE.scoreboard_stats = "        Статус"
 LANGUAGE.scoreboard_group = "Группа"
@@ -66,7 +89,7 @@ LANGUAGE.weapon_binoculars = "Бинокль"
 LANGUAGE.hint_tipUse = ""
 LANGUAGE.hint_XpAmmount = "XP Получено"
 LANGUAGE.hint_MoneyAmmount = " Подобрал"
-LANGUAGE.hint_tipHelp = "Помощь:"
+LANGUAGE.hint_tipHelp = ""
 LANGUAGE.hint_tipAdmin = "[АДМИН]"
 LANGUAGE.hint_tipCanselUse = "[ОТМЕНА ДЕЙСТВИЯ]:"
 
@@ -82,7 +105,14 @@ LANGUAGE.deathLMBMsgCountDown = " секунд до респавна!"
 
 LANGUAGE.GroupDistance = "Растояние:"
 
+LANGUAGE.Vip = "Эта зона только для VIP'ов и выше!"
+
 LANGUAGE.Tag = "Вы атаковали/атакованы!!! Вы сможете покинуть сервер/зайти на безопасную зону через %s секунд"
+LANGUAGE.TagLabel = "ВЫ АТАКОВАНЫ"
+LANGUAGE.TagText1 = ""
+LANGUAGE.TagText2 = "Здесь вы БУДЕТЕ получать урон от других!"
+LANGUAGE.TagText3 = "Доступ к магазину и банку закрыт!"
+LANGUAGE.TagText4 = "Вы будете защищены через %s секунд(ы)."
 
 LANGUAGE.SafeZoneLabel = "БЕЗОПАСНАЯ ЗОНА"
 LANGUAGE.SafeZoneText1 = "Здесь вы не сможете использовать оружие!"
@@ -90,11 +120,11 @@ LANGUAGE.SafeZoneText2 = "Здесь вы можете купить оружие
 LANGUAGE.SafeZoneText3 = "Здесь вы не получите урон от других игроков."
 LANGUAGE.SafeZoneText4 = ""
 
-LANGUAGE.VipZoneLabel = "VIP ЗОНА"
-LANGUAGE.VipZoneText1 = "Простые смертные не могут сюда зайти :)"
-LANGUAGE.VipZoneText2 = "Здесь вы можете Купить или Продать ВСЁ(почти всё)"
-LANGUAGE.VipZoneText3 = "Здесь вы не сможете использовать оружие!(как и в БЗ)"
-LANGUAGE.VipZoneText4 = "Здесь вы в полной безопасности и ничто вас не убьет\n(Но умереть от голода и жажды или кровотечения вы можете)"
+LANGUAGE.SafeZoneEdgeLabel = "КРАЙ БЕЗОПАСНОЙ ЗОНЫ"
+LANGUAGE.SafeZoneEdgeText1 = ""
+LANGUAGE.SafeZoneEdgeText2 = ""
+LANGUAGE.SafeZoneEdgeText3 = "Здесь вы не будете получать урон от игроков!"
+LANGUAGE.SafeZoneEdgeText4 = "Войдите в безопасную зону, чтобы получить доступ к банку/магазину."
 
 LANGUAGE.VehicleHP = "Жизни: "
 LANGUAGE.VehicleFuel = "Топливо: "
@@ -122,6 +152,7 @@ LANGUAGE.BackCharacter = "Назад"
 --Inventory
 LANGUAGE.YourBackPack = "Твой Рюкзак"
 LANGUAGE.LootBackPack = "Лут"
+LANGUAGE.CrateBackPack = "Ящик"
 LANGUAGE.YourBankBackPack = "Твой Банк"
 LANGUAGE.CloseBank = "Закрыть банк на Q: "
 LANGUAGE.CloseInventory = "'Q' Закрыть инвентарь"
@@ -167,9 +198,10 @@ LANGUAGE.PerkTableDesc = "Все о перках."
 
 --Settings
 LANGUAGE.EnableContentText = "Включить сообщение о недостающем контенте:"
-LANGUAGE.EnableHudText = "Включить худ:"
+LANGUAGE.EnableHudText = "Включить Худ:"
 LANGUAGE.NVButtonText = "Кнопка ПНВ:"
 LANGUAGE.InvButtonText = "Кнопка Инвентаря:"
+LANGUAGE.EnableMinimapText = "Включить Миникарту:"
 LANGUAGE.LangButtonText = "Установить язык"
 LANGUAGE.LangRu = "Русский"
 LANGUAGE.LangEn = "Английский"
@@ -180,16 +212,32 @@ LANGUAGE.GroupChangeText1 = "Установите название для гру
 LANGUAGE.GroupChangeText2 = '"НАЗВАНИЕ"'
 
 --Crafting
-LANGUAGE.CraftTextUnnamed = "Идет полная переработка инвентаря.\nСкоро все будет в лучшем виде."
+LANGUAGE.Craft = "СОЗДАТЬ"
+LANGUAGE.CraftNeed = "Тебе нужно :"
+LANGUAGE.CraftSheetBasic = "Базовое"
+LANGUAGE.CraftSheetAdvanced = "Дополнительное"
+LANGUAGE.CraftSheetLegendary = "Легендарное"
+LANGUAGE.CraftNo = "У вас нет необходимого навыка"
+LANGUAGE.CraftNot = "Вы не можете создать этот предмет."
+LANGUAGE.CraftNotDouble = "Вы не можете создать более 5 предметов одновременно."
+LANGUAGE.CraftCantCarry = "Вы не можете нести этот предмет. Крафт был отменен."
+LANGUAGE.CraftCant = "Вы не можете создать этот предмет. Крафт был отменен."
+
+LANGUAGE.GuitarNo = "Вы не можете поднять предмет, когда держите гитару."
+
+--AirDrop
+LANGUAGE.AirDropText = "Высадка уже идет, Пожалуйста, подождите."
+LANGUAGE.AirDropText2 = "Вы успешно вызвали AirDrop."
+LANGUAGE.AirDropText3 = "На карте в ближайшее время появится AirDrop."
 
 --Stats
 LANGUAGE.Stats = "Статистика"
 LANGUAGE.Stats_Name = "Имя: "
 
 LANGUAGE.Stats_XP = "XP: "
-LANGUAGE.Stats_Money = "Деньги: $"
+LANGUAGE.Stats_Money = "Деньги: ₽"
 LANGUAGE.Stats_MoneyPack = "пачек/пачка"
-LANGUAGE.Stats_Credits = "Кредиты: "
+LANGUAGE.Stats_Credits = "Деньги: $"
 
 LANGUAGE.Stats_HP = "Кровь: "
 LANGUAGE.Stats_Hunger = "Голод: "
@@ -199,7 +247,7 @@ LANGUAGE.Stats_Stamina = "Выносливость: "
 --Skills
 LANGUAGE.Perk_True = "Получен"
 LANGUAGE.Perk_False = "Не Получен"
-LANGUAGE.Skills_Cost = "Стоит: "
+LANGUAGE.Skills_Cost = "Требуется очков улучшения: "
 LANGUAGE.Skills_Unlock = "Разблокировать Талант"
 
 --Shop
@@ -217,12 +265,12 @@ LANGUAGE.FoodTable = "Еда"
 
 LANGUAGE.ClipSize = "Патрон: "
 LANGUAGE.Cost = "Стоимость"
-LANGUAGE.PriceMoney = "Покупка: $"
-LANGUAGE.PriceMoneyButton = "Купить за $"
-LANGUAGE.PriceCredits = "В Кредитах: "
-LANGUAGE.PriceCreditsButton = "Купить за Кредиты"
-LANGUAGE.SellMoney = "Продажа: $"
-LANGUAGE.SellMoneyButton = "Продать за $"
+LANGUAGE.PriceMoney = "Покупка: ₽"
+LANGUAGE.PriceMoneyButton = "Купить за ₽"
+LANGUAGE.PriceCredits = "Покупка: $"
+LANGUAGE.PriceCreditsButton = "Купить за $"
+LANGUAGE.SellMoney = "Продажа: ₽"
+LANGUAGE.SellMoneyButton = "Продать за ₽"
 
 LANGUAGE.NotEnoughMoney = "Вы не можете себе это позволить."
 LANGUAGE.NotWeight = "Не хватает места."
@@ -253,21 +301,21 @@ LANGUAGE.Skill_buy = "Ты изучил "
 LANGUAGE.Perk_notbuy = "У вас уже есть этот перк."
 LANGUAGE.Skill_notbuy1 = "У вас уже есть этот талант."
 LANGUAGE.Skill_notbuy2 = "Ты не можешь прокачать этот талант т.к ты не прокачал талант до него."
-LANGUAGE.Skill_notbuy3 = "У вас недостаточно опыта чтобы изучить этот талант."
+LANGUAGE.Skill_notbuy3 = "У вас недостаточно очков улучшения чтобы изучить этот талант."
 
-LANGUAGE.Perk1_name = "Умение 1"
-LANGUAGE.Perk1_desc = ""
+LANGUAGE.Perk1_name = "Крафтинг 1"
+LANGUAGE.Perk1_desc = "Позвольте вам создавать базовые предметы"
 
-LANGUAGE.Perk2_name = "Умение 2"
-LANGUAGE.Perk2_desc = ""
+LANGUAGE.Perk2_name = "Крафтинг 2"
+LANGUAGE.Perk2_desc = "Позвольте вам создавать среднего качества предметы"
 
-LANGUAGE.Perk3_name = "Улучшенное умение 1"
+LANGUAGE.Perk3_name = "Легендарная Лицензия На Крафт"
 LANGUAGE.Perk3_desc = ""
 
-LANGUAGE.Perk4_name = "Улучшенное умение 2"
-LANGUAGE.Perk4_desc = ""
+LANGUAGE.Perk4_name = "Крафтинг 3"
+LANGUAGE.Perk4_desc = "Позвольте вам создавать легендарные предметы"
 
-LANGUAGE.Perk5_name = "Профессиональный умелец"
+LANGUAGE.Perk5_name = "EMPTY SKILL (NOT USED)"
 LANGUAGE.Perk5_desc = ""
 
 LANGUAGE.Perk6_name = "EMPTY SKILL (NOT USED)"
@@ -316,12 +364,12 @@ LANGUAGE.Perk20_name = "Профессиональный стрелок"
 LANGUAGE.Perk20_desc = "Урон от пуль повышается на 15%"
 
 --ItemList
-LANGUAGE.ID1_item = "Кредит"
+LANGUAGE.ID1_item = "Деньги($)"
 LANGUAGE.ID1_desc = "Премиумные деньги."
 LANGUAGE.ID01_usetip = ""
 LANGUAGE.ID01_blocktip = ""
 
-LANGUAGE.ID2_item = "Деньги"
+LANGUAGE.ID2_item = "Деньги(₽)"
 LANGUAGE.ID2_desc = "Без денег ты пропадешь."
 LANGUAGE.ID2_usetip = "Недостаточно денег чтобы их сложить."
 LANGUAGE.ID2_blocktip = ""
@@ -486,23 +534,23 @@ LANGUAGE.ID34_desc = "Универсальные патроны для всех 
 LANGUAGE.ID34_usetip = ""
 LANGUAGE.ID34_blocktip = ""
 
-LANGUAGE.ID35_item = "Школьный Рюкзак"
-LANGUAGE.ID35_desc = "Потертый школьный рюкзак, с несколькими карманами."
+LANGUAGE.ID35_item = "Рюкзак выживателя"
+LANGUAGE.ID35_desc = "Специализированный рюкзак выживателя, с доп. карманами."
 LANGUAGE.ID35_usetip = ""
 LANGUAGE.ID35_blocktip = ""
 
-LANGUAGE.ID36_item = "Рюкзак выживателя"
-LANGUAGE.ID36_desc = "Специализированный рюкзак выживателя, с доп. карманами."
+LANGUAGE.ID36_item = "Спортивная сумка"
+LANGUAGE.ID36_desc = "Спортивная сумка из плотной ткани, непременный атрибут спортсменов, пассажиров поездов в 90х"
 LANGUAGE.ID36_usetip = ""
 LANGUAGE.ID36_blocktip = ""
 
-LANGUAGE.ID37_item = "Рюкзак Туриста"
-LANGUAGE.ID37_desc = "Походный рюкзак туриста, с карманами, подтяжками и прочими гаджетами.."
+LANGUAGE.ID37_item = "Туристический рюкзак Пилигримм"
+LANGUAGE.ID37_desc = "Большой и вместительный туристический рюкзак яркой расцветки."
 LANGUAGE.ID37_usetip = ""
 LANGUAGE.ID37_blocktip = ""
 
-LANGUAGE.ID38_item = "Военный Рюкзак"
-LANGUAGE.ID38_desc = "Военный Рюкзак, созданный для спецподразделений армии."
+LANGUAGE.ID38_item = "Рюкзак Blackjack 50 (Multicam)"
+LANGUAGE.ID38_desc = "Рюкзак для дальних и успешных рейдов от фирмы Mystery Ranch"
 LANGUAGE.ID38_usetip = ""
 LANGUAGE.ID38_blocktip = ""
 
@@ -618,8 +666,8 @@ LANGUAGE.ID60_blocktip = ""
 
 LANGUAGE.ID61_item = "Индивидуальный рацион питания"
 LANGUAGE.ID61_desc = "Сколько лет прошло... Это вообще съедобно?"
-LANGUAGE.ID61_usetip = ""
-LANGUAGE.ID61_blocktip = ""
+LANGUAGE.ID61_usetip = "Я съел весь Индивидуальный рацион питания"
+LANGUAGE.ID61_blocktip = "Идет использование ИРП"
 
 LANGUAGE.ID62_item = "Морфий"
 LANGUAGE.ID62_desc = "Болеутоляющее, отлично глушащий боль."
@@ -646,8 +694,8 @@ LANGUAGE.ID66_desc = "Нажми на [F] чтобы включить фонар
 LANGUAGE.ID66_usetip = ""
 LANGUAGE.ID66_blocktip = ""
 
-LANGUAGE.ID67_item = "Бинокль"
-LANGUAGE.ID67_desc = "Дает возможность смотреть на дальние дистанции."
+LANGUAGE.ID67_item = "Противогаз ГП-5"
+LANGUAGE.ID67_desc = "Гражданский противогаз модели 5"
 LANGUAGE.ID67_usetip = ""
 LANGUAGE.ID67_blocktip = ""
 
@@ -836,8 +884,8 @@ LANGUAGE.ID104_desc = "Нам действительно что-то нужно 
 LANGUAGE.ID104_usetip = ""
 LANGUAGE.ID104_blocktip = ""
 
-LANGUAGE.ID105_item = "Радио"
-LANGUAGE.ID105_desc = "С него можно слушать музыку,но как?!"
+LANGUAGE.ID105_item = "Порох"
+LANGUAGE.ID105_desc = "Используется для изготовления любого типа боеприпасов"
 LANGUAGE.ID105_usetip = ""
 LANGUAGE.ID105_blocktip = ""
 
@@ -905,3 +953,8 @@ LANGUAGE.ID118_item = "Рация"
 LANGUAGE.ID118_desc = ""
 LANGUAGE.ID118_usetip = ""
 LANGUAGE.ID118_blocktip = ""
+
+LANGUAGE.ID119_item = "AirDrop Граната"
+LANGUAGE.ID119_desc = "Вам нужны припасы? Бросьте это, чтобы запросить воздушную высадку, но будьте осторожны. Другие игроки смогут увидеть и украсть его."
+LANGUAGE.ID119_usetip = ""
+LANGUAGE.ID119_blocktip = ""

@@ -3,6 +3,20 @@ translate.AddLanguage("en", "English")
 --Language label
 LANGUAGE.language_name = "English"
 
+--AFK
+LANGUAGE.AFKText1 = "You were away for "
+LANGUAGE.AFKText2 = "AFK"
+
+--GRAVE
+LANGUAGE.Grave = "Grave"
+LANGUAGE.GraveText1 = "Died of an unknown cause"
+LANGUAGE.GraveText2 = "Press 'E' to pay respect"
+
+--AUTORESTART
+LANGUAGE.AutoRestart1 = "WARNING"
+LANGUAGE.AutoRestart2 = "After %s seconds, the server will be restarted!"
+LANGUAGE.AutoRestart3 = "To avoid loss of loot, stand somewhere in a safe place"
+
 --Other
 LANGUAGE.money = "MONEY"
 LANGUAGE.backpack = "BACKPACK"
@@ -11,9 +25,18 @@ LANGUAGE.neutral = "NEUTRAL"
 LANGUAGE.bandit = "BANDIT"
 LANGUAGE.hero = "HERO"
 
+LANGUAGE.StringGoodTime1 = "a few seconds"
+LANGUAGE.StringGoodTime2 = " second(s)"
+LANGUAGE.StringGoodTime3 = " minute(s)"
+LANGUAGE.StringGoodTime4 = " hour(s)"
+LANGUAGE.StringGoodTime5 = " day(s)"
+LANGUAGE.StringGoodTime6 = " week(s)"
+LANGUAGE.StringGoodTime7 = " year(s)"
+
 --Scoreboard
 LANGUAGE.scoreboard_ping = "Ping"
 LANGUAGE.scoreboard_kills = "Frags"
+LANGUAGE.scoreboard_lvl = "Level"
 LANGUAGE.scoreboard_status = "Rank/Prefix"
 LANGUAGE.scoreboard_stats = "        Status"
 LANGUAGE.scoreboard_group = "Group"
@@ -66,7 +89,7 @@ LANGUAGE.weapon_binoculars = "Binoculars"
 LANGUAGE.hint_tipUse = ""
 LANGUAGE.hint_XpAmmount = "XP received"
 LANGUAGE.hint_MoneyAmmount = " Picked up"
-LANGUAGE.hint_tipHelp = "Help:"
+LANGUAGE.hint_tipHelp = ""
 LANGUAGE.hint_tipAdmin = "[ADMIN]"
 LANGUAGE.hint_tipCanselUse = "[UNDO]:"
 
@@ -82,7 +105,14 @@ LANGUAGE.deathLMBMsgCountDown = " seconds to respawn!"
 
 LANGUAGE.GroupDistance = "Distance:"
 
+LANGUAGE.Vip = "This area is only for VIPS and higher!"
+
 LANGUAGE.Tag = "You are attacking/have been attacked!!! You can leave the server/go to safe area via %s seconds"
+LANGUAGE.TagLabel = "YOU'RE UNDER ATTACK"
+LANGUAGE.TagText1 = ""
+LANGUAGE.TagText2 = "You WILL take damage from others!"
+LANGUAGE.TagText3 = "Access to the store and the Bank is closed!"
+LANGUAGE.TagText4 = "You will be protected in %s seconds."
 
 LANGUAGE.SafeZoneLabel = "SAFE ZONE"
 LANGUAGE.SafeZoneText1 = "Here you will not be able to use weapons!"
@@ -90,11 +120,11 @@ LANGUAGE.SafeZoneText2 = "Here you can buy weapons/fold unnecessary items in the
 LANGUAGE.SafeZoneText3 = "Here you will not receive damage from other players."
 LANGUAGE.SafeZoneText4 = ""
 
-LANGUAGE.VipZoneLabel = "VIP ZONE"
-LANGUAGE.VipZoneText1 = "Mere mortals don't coming here"
-LANGUAGE.VipZoneText2 = "Here you can Buy and Sale items"
-LANGUAGE.VipZoneText3 = "Here you don't using weapon"
-LANGUAGE.VipZoneText4 = "Here you are in complete safety, no one can kill you\n(Only hunger and thirst)"
+LANGUAGE.SafeZoneEdgeLabel = "SAFE-ZONE EDGE WARNING"
+LANGUAGE.SafeZoneEdgeText1 = ""
+LANGUAGE.SafeZoneEdgeText2 = ""
+LANGUAGE.SafeZoneEdgeText3 = "You won't take damage from others!"
+LANGUAGE.SafeZoneEdgeText4 = "Enter the SafeZone to access the Bank/Shop."
 
 LANGUAGE.VehicleHP = "Life: "
 LANGUAGE.VehicleFuel = "Fuel: "
@@ -122,6 +152,7 @@ LANGUAGE.BackCharacter = "Back"
 --Inventory
 LANGUAGE.YourBackPack = "Your Backpack"
 LANGUAGE.LootBackPack = "Loot"
+LANGUAGE.CrateBackPack = "Crate"
 LANGUAGE.YourBankBackPack = "Your Bank"
 LANGUAGE.CloseBank = "To close the Bank on 'Q' "
 LANGUAGE.CloseInventory = "'Q' to сlose the inventory"
@@ -170,6 +201,7 @@ LANGUAGE.EnableContentText = "Enable message about missing content:"
 LANGUAGE.EnableHudText = "Enable Hud:"
 LANGUAGE.NVButtonText = "NightVision button:"
 LANGUAGE.InvButtonText = "Inventory button:"
+LANGUAGE.EnableMinimapText = "Enable Minimap:"
 LANGUAGE.LangButtonText = "Set Language"
 LANGUAGE.LangRu = "Russian"
 LANGUAGE.LangEn = "English"
@@ -180,16 +212,32 @@ LANGUAGE.GroupChangeText1 = "Set the name for the group\n(Write in quotes)"
 LANGUAGE.GroupChangeText2 = '"NAME"'
 
 --Crafting
-LANGUAGE.CraftTextUnnamed = ""
+LANGUAGE.Craft = "CRAFT"
+LANGUAGE.CraftNeed = "You need :"
+LANGUAGE.CraftSheetBasic = "Basic"
+LANGUAGE.CraftSheetAdvanced = "Advanced"
+LANGUAGE.CraftSheetLegendary = "Legendary"
+LANGUAGE.CraftNo = "You don't have the required skill"
+LANGUAGE.CraftNot = "You can't craft this item."
+LANGUAGE.CraftNotDouble = "You can't craft more than 5 items at a time."
+LANGUAGE.CraftCantCarry = "You can't carry this item. Crafting has been canceled."
+LANGUAGE.CraftCant = "You can't craft this item. Crafting has been canceled."
+
+LANGUAGE.GuitarNo = "You can't lift an object while you're holding a guitar."
+
+--AirDrop
+LANGUAGE.AirDropText = "An airdrop is already in progress, please wait."
+LANGUAGE.AirDropText2 = "You have successfully called AirDrop."
+LANGUAGE.AirDropText3 = "Airdrop will soon appear on the map."
 
 --Stats
 LANGUAGE.Stats = "Statistics"
 LANGUAGE.Stats_Name = "Name: "
 
 LANGUAGE.Stats_XP = "XP: "
-LANGUAGE.Stats_Money = "Money: $"
+LANGUAGE.Stats_Money = "Money: ₽"
 LANGUAGE.Stats_MoneyPack = "pack/packs"
-LANGUAGE.Stats_Credits = "Credits: "
+LANGUAGE.Stats_Credits = "Money: $"
 
 LANGUAGE.Stats_HP = "Blood: "
 LANGUAGE.Stats_Hunger = "Hunger: "
@@ -199,7 +247,7 @@ LANGUAGE.Stats_Stamina = "Endurance: "
 --Skills
 LANGUAGE.Perk_True = "Received"
 LANGUAGE.Perk_False = "Not Received"
-LANGUAGE.Skills_Cost = "Cost: "
+LANGUAGE.Skills_Cost = "Improvement points required: "
 LANGUAGE.Skills_Unlock = "Unlock Talent"
 
 --Shop
@@ -217,12 +265,12 @@ LANGUAGE.FoodTable = "Food"
 
 LANGUAGE.ClipSize = "Ammo: "
 LANGUAGE.Cost = "Cost"
-LANGUAGE.PriceMoney = "Purchase: $"
-LANGUAGE.PriceMoneyButton = "Purchase for $"
-LANGUAGE.PriceCredits = "Credits: "
-LANGUAGE.PriceCreditsButton = "Purchase for credits"
-LANGUAGE.SellMoney = "Sell: $"
-LANGUAGE.SellMoneyButton = "Sell for $"
+LANGUAGE.PriceMoney = "Purchase: ₽"
+LANGUAGE.PriceMoneyButton = "Purchase for ₽"
+LANGUAGE.PriceCredits = "Purchase: $"
+LANGUAGE.PriceCreditsButton = "Purchase for $"
+LANGUAGE.SellMoney = "Sell: ₽"
+LANGUAGE.SellMoneyButton = "Sell for ₽"
 
 LANGUAGE.NotEnoughMoney = "You can't afford that."
 LANGUAGE.NotWeight = "Not enough space."
@@ -253,21 +301,21 @@ LANGUAGE.Skill_buy = "You learned "
 LANGUAGE.Perk_notbuy = "You already have this perk."
 LANGUAGE.Skill_notbuy1 = "You already have this skill."
 LANGUAGE.Skill_notbuy2 = "You do not have the prerequisite for this skill."
-LANGUAGE.Skill_notbuy3 = "You are not experienced enough."
+LANGUAGE.Skill_notbuy3 = "You don't have enough improvement points to learn this talent."
 
-LANGUAGE.Perk1_name = "Skill 1"
-LANGUAGE.Perk1_desc = ""
+LANGUAGE.Perk1_name = "Crafting 1"
+LANGUAGE.Perk1_desc = "Let you craft basics items"
 
-LANGUAGE.Perk2_name = "Skill 2"
-LANGUAGE.Perk2_desc = ""
+LANGUAGE.Perk2_name = "Crafting 2"
+LANGUAGE.Perk2_desc = "Let you craft intermediate items"
 
-LANGUAGE.Perk3_name = "Improved skill 1"
+LANGUAGE.Perk3_name = "Legendary Crafting License"
 LANGUAGE.Perk3_desc = ""
 
-LANGUAGE.Perk4_name = "Improved skill 2"
-LANGUAGE.Perk4_desc = ""
+LANGUAGE.Perk4_name = "Crafting 3"
+LANGUAGE.Perk4_desc = "Let you craft legendary items"
 
-LANGUAGE.Perk5_name = "Professional craftsman"
+LANGUAGE.Perk5_name = "EMPTY SKILL (NOT USED)"
 LANGUAGE.Perk5_desc = ""
 
 LANGUAGE.Perk6_name = "EMPTY SKILL (NOT USED)"
@@ -316,12 +364,12 @@ LANGUAGE.Perk20_name = "Professional shooter"
 LANGUAGE.Perk20_desc = "Bullet damage increases by 15%"
 
 --ItemList
-LANGUAGE.ID1_item = "Credits"
+LANGUAGE.ID1_item = "Money($)"
 LANGUAGE.ID1_desc = "Premium money."
 LANGUAGE.ID01_usetip = ""
 LANGUAGE.ID01_blocktip = ""
 
-LANGUAGE.ID2_item = "Money"
+LANGUAGE.ID2_item = "Money(₽)"
 LANGUAGE.ID2_desc = "Without money, you'll be lost."
 LANGUAGE.ID2_usetip = "There is not enough money to put them together."
 LANGUAGE.ID2_blocktip = ""
@@ -486,23 +534,23 @@ LANGUAGE.ID34_desc = "Universal cartridges for all pistols"
 LANGUAGE.ID34_usetip = ""
 LANGUAGE.ID34_blocktip = ""
 
-LANGUAGE.ID35_item = "School backpack"
-LANGUAGE.ID35_desc = "A shabby school backpack with several pockets."
+LANGUAGE.ID35_item = "Survival's backpack"
+LANGUAGE.ID35_desc = "Specialized survival's backpack with extra pockets."
 LANGUAGE.ID35_usetip = ""
 LANGUAGE.ID35_blocktip = ""
 
-LANGUAGE.ID36_item = "Survival's backpack"
-LANGUAGE.ID36_desc = "Specialized survival's backpack with extra pockets."
+LANGUAGE.ID36_item = "Sports bag"
+LANGUAGE.ID36_desc = "Sports bag made of thick fabric, an indispensable attribute of athletes, train passengers in the 90s"
 LANGUAGE.ID36_usetip = ""
 LANGUAGE.ID36_blocktip = ""
 
-LANGUAGE.ID37_item = "Tourist backpack"
-LANGUAGE.ID37_desc = "Tourist backpack with pockets, suspenders and other gadgets."
+LANGUAGE.ID37_item = "Tourist backpack Pilgrim"
+LANGUAGE.ID37_desc = "Large and roomy tourist backpack bright colors."
 LANGUAGE.ID37_usetip = ""
 LANGUAGE.ID37_blocktip = ""
 
-LANGUAGE.ID38_item = "Military backpack"
-LANGUAGE.ID38_desc = "Military backpack created for the special forces of the army."
+LANGUAGE.ID38_item = "Blackjack 50 backpack (Multicam)"
+LANGUAGE.ID38_desc = "Backpack for long-distance and successful raids from the company Mystery Ranch."
 LANGUAGE.ID38_usetip = ""
 LANGUAGE.ID38_blocktip = ""
 
@@ -646,8 +694,8 @@ LANGUAGE.ID66_desc = "Press [F] to turn on the flashlight."
 LANGUAGE.ID66_usetip = ""
 LANGUAGE.ID66_blocktip = ""
 
-LANGUAGE.ID67_item = "Binoculars"
-LANGUAGE.ID67_desc = "Allows you to look at long distances."
+LANGUAGE.ID67_item = "Gas mask GP-5"
+LANGUAGE.ID67_desc = "Civilian gas mask model 5"
 LANGUAGE.ID67_usetip = ""
 LANGUAGE.ID67_blocktip = ""
 
@@ -836,8 +884,8 @@ LANGUAGE.ID104_desc = "Do we really need something to paint?"
 LANGUAGE.ID104_usetip = ""
 LANGUAGE.ID104_blocktip = ""
 
-LANGUAGE.ID105_item = "Radio"
-LANGUAGE.ID105_desc = "You can listen to music from him, but how?!"
+LANGUAGE.ID105_item = "Gun Powder"
+LANGUAGE.ID105_desc = "Used to craft any type of ammo"
 LANGUAGE.ID105_usetip = ""
 LANGUAGE.ID105_blocktip = ""
 
@@ -905,3 +953,8 @@ LANGUAGE.ID118_item = "Radio set"
 LANGUAGE.ID118_desc = ""
 LANGUAGE.ID118_usetip = ""
 LANGUAGE.ID118_blocktip = ""
+
+LANGUAGE.ID119_item = "AirDrop Grenade"
+LANGUAGE.ID119_desc = "In need of supplies? Drop this to request an Air Drop - But be careful. Other players will be able to see and steal it."
+LANGUAGE.ID119_usetip = ""
+LANGUAGE.ID119_blocktip = ""
