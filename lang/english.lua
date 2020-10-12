@@ -100,6 +100,8 @@ LANGUAGE.hud_missingcontent4 = "CONTENT: 'GMod DayZ' not found!"
 LANGUAGE.hud_missingcontent5 = "ENJOY ERRORS/MISSING TEXTURES!"
 LANGUAGE.hud_missingcontent6 = "No, seriously. Get the content from vk.com/official_russian_dayz"
 
+LANGUAGE.radar_nickme = "Me"
+
 LANGUAGE.deathLMBMsg = "Click LMB to spawn"
 LANGUAGE.deathLMBMsgCountDown = " seconds to respawn!"
 
